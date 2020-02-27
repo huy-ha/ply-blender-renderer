@@ -4,13 +4,15 @@ This codebase has been tested on Ubuntu 18.04 with Blender 2.82.
 
 ## Getting Started
 
-This is a .ply renderer which relies on [Blender](https://www.blender.org/). On Ubuntu, install Blender with
+On Ubuntu, install [Blender](https://www.blender.org/) with
 ```sh
 sudo snap install blender --classic # Only for Ubuntu
 ```
 
-Launch Blender to set up GPU rendering, as Blender doesn't do this by default.
-<!-- TODO insert screenshot here -->
+Launch Blender to set up GPU rendering, as Blender doesn't do this by default. Go to `Edit` -> `Preferences` -> `System` -> `Cycles Render Devices`, select CUDA, and enable your CUDA devices.
+
+
+![](blender-cuda.png)
 
 ## Rendering .ply files
 
